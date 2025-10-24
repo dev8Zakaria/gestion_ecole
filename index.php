@@ -12,7 +12,7 @@ session_start();
 
 <?php if (!isset($_SESSION['user_id'])): ?>
     <h2>Authentification</h2>
-    <form method="post" action="/Gestion_Actions/login.php">
+    <form method="post" action="/gestion_ecole/Gestion_Actions/login.php">
         <label>Email</label><br>
         <input type="email" name="email" required><br><br>
 
